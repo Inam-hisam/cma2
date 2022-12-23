@@ -1,0 +1,96 @@
+   *{
+  padding :0px;
+  margin : 0px;
+}
+body{
+  background: rgba(0,0,0,0.7)url("/20221223_170844.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  
+  
+}
+
+.head{
+  width:auto;
+  height: auto;
+  background: rgb(0, 100, 0);
+  text-align: right;
+  margin-top: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.head ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.head ul li{
+  width: 60px;
+  margin: 8px;
+  padding: 5px;
+}
+.active, .head ul li:hover{
+  background: orange;
+  border-radius: 3px;
+}
+
+.menu{
+  display: none;
+}
+.head ul li:hover .menu{
+  display: block;
+  position: absolute;
+  background-color: black;
+  margin-top: 15px;
+  margin-left: -15px;
+  width: 150px;
+  
+}
+a{
+  color : white;
+text-decoration: none;
+  
+}
+
+.head ul li:hover .menu ul{
+  display: block;
+  margin : 10px;
+  width: 120px;
+  height: auto;
+  background-size: auto;
+  }
+  #bg{
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  #welcome{
+    color :orange;
+   
+  }
+  #to{
+    color: hotpink;
+    
+  }
+  #site{
+    color : lightcoral;
+   
+  }
+  #here{
+    color: darkgoldenrod;
+  }
+  #paragraph{
+    color :white;
+  }
+  #order{
+    color: white ;
+    margin-left: 20px;
+  }
+@media only screen and(max-width: 360px){
+ .menu ul li{
+   height: 40px;
+   width: 70px;
+ } 
+}
